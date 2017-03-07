@@ -7,13 +7,11 @@
 </head>
 
 <body>
-    <h1>{{pageTitle}}</h1>
-    <h2>{{welcomeMsg}}</h2>
+    {{> header}}
+    <h2>{{toUppercase welcomeMsg}}</h2>
     <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
 
-    <footer>
-        <p>Copyright {{currentYear}}</p>
-    </footer>
+    {{> footer}}
 </body>
 
 </html>
